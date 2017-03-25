@@ -6,6 +6,7 @@
 **Blog Article(Chinese)**:https://solinariwu.blogspot.tw/2017/02/android-navigation-viewactivity.html
 
 Reference:
+
 http://www.cnblogs.com/schaepher/p/5655659.html     
 
 http://androiddeveloperdemo.blogspot.tw/2014/08/android-navigation-drawer-with-multiple.html
