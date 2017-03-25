@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/account"
+    app:showAsAction="always"
+    android:icon="@drawable/toolbar_account"
+    android:orderInCategory="20"
+    android:id="@+id/ItemAccount"/>
+<item
+    android:title="@string/comment"
+    app:showAsAction="always"
+    android:icon="@drawable/toolbar_comment"
+    android:orderInCategory="30"
+    android:id="@+id/ItemComment"/>
+</menu>

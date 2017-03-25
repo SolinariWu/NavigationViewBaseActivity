@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NavigationViewSample</string>
+    <string name="open_navigation">Open Navigation</string>
+    <string name="close_navigation">Close Navigation</string>
+    <string name="name">Name :</string>
+    <string name="country">Country :</string>
+    <string name="email">Email :</string>
+    <string name="comment">Comment</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <string name="smartphone">Smartphone</string>
+    <string name="place">Place</string>
+    <string name="friend">Friend</string>
+    <string name="setting">Setting</string>
+    <string name="contact">Contact us</string>
+    <string name="view_one">View One</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="version">Version</string>
+    <string name="author">Author</string>
+    <string name="author_name">Solinari</string>
+    <string name="author_email">hinet951159@gmail.com</string>
+</resources>
