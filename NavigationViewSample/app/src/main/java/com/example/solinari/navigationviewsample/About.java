@@ -20,7 +20,7 @@ public class About extends Navigation_BaseActivity {
         CurrentMenuItem = 1;//目前Navigation項目位置
         NV.getMenu().getItem(CurrentMenuItem).setChecked(true);//設置Navigation目前項目被選取狀態
         TextView tvVersion = (TextView) findViewById(R.id.tvVersion);
-        try {
+        try {//取得APP目前的versionName
             PackageInfo packageInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
             tvVersion.setText( packageInfo.versionName);
         } catch (PackageManager.NameNotFoundException e) {
