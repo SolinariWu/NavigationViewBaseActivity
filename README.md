@@ -1,7 +1,7 @@
 # NavigationViewBaseActivity
 **Description**:Coding NavigationView Base Acitivity,any Activity want use NavigationView can extends this.
 
-![Screenshots](https://3.bp.blogspot.com/-G5_vEDXGxE0/WNYU4uEZusI/AAAAAAAADOA/cd_rmL6e9d8rAR7FFMS1Br-5_bmcpMTzQCLcB/s320/ToolBarItem.gif)
+![Screenshots](https://1.bp.blogspot.com/-JFT_JASCQbE/WNYvnHwitCI/AAAAAAAADOQ/91w5xvwpVf0Q_2ijoL70U_4QASlnXoj9gCLcB/s1600/NavigationViewSample.gif)
 
 **Blog Article(Chinese)**:https://solinariwu.blogspot.tw/2017/02/android-navigation-viewactivity.html
 
