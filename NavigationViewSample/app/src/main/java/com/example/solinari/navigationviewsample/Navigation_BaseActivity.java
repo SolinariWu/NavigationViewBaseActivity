@@ -76,7 +76,7 @@ public class Navigation_BaseActivity extends AppCompatActivity {
                 else {//點擊當前項目時，收起Navigation
                     DL.closeDrawer(GravityCompat.START);
                 }
-                return true;
+                return false;
             }
         });
 
