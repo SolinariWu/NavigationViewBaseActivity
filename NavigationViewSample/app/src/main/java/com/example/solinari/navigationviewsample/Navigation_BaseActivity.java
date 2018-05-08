@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 
 /**
  * Created by Solinari on 2017/02/15.
@@ -21,6 +22,7 @@ import android.widget.FrameLayout;
 public class Navigation_BaseActivity extends AppCompatActivity {
     private DrawerLayout DL;
     private FrameLayout FL;
+
     protected NavigationView NV;
     protected Toolbar toolbar;
     protected int CurrentMenuItem = 0;//紀錄目前User位於哪一個項目
@@ -33,8 +35,16 @@ public class Navigation_BaseActivity extends AppCompatActivity {
         getLayoutInflater().inflate(layoutResID, FL, true);
         super.setContentView(DL);
         toolbar = (Toolbar) findViewById(R.id.ToolBar);
+        setHeaderLayout();
         setUpNavigation();
     }
+
+    private void setHeaderLayout(){
+     View headerLayout = NV.getHeaderView(0);
+     TextView headerText = headerLayout.findViewById(R.id.navigation_header_userID);
+     headerText.setText(getString(R.string.author_name));
+    }
+
     private void setUpNavigation() {
         // Set navigation item selected listener
         NV.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
